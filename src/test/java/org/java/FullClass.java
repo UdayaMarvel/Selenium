@@ -39,6 +39,7 @@ public class FullClass extends MultilevelI implements Interface{
 	//15.overriding or dynamic binding- using same method name, same datatypes, but different class  we can overwrite the method logic
 	//-- override done in extended class
 	public void interF() {}
+	public test today() {}
 	//16. abstraction
 	//16. 1. partial abstraction -- contains both main methods and templates,-- keyword abstract, it can be inherited by extends keyword
 	//16. 2. fully abstraction or interface -- multiple inheritance can be done, -- keyword for inheritance is implements
