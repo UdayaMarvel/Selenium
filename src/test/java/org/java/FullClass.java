@@ -7,7 +7,9 @@ import java.util.Scanner;
 
 // 5. different pack import --extend, object creation
 // 6. inheritance -- keyword extends
-import org.diff.*;
+import org.diff.DifferentPack;
+import org.diff.Interface;
+import org.diff.MultilevelI;
 
 //1. class syntax
 //11. static in class level -- not possible
@@ -110,8 +112,8 @@ public class FullClass extends MultilevelI implements Interface{
 		String name = S.next();
 		//17. encapsulation object  
 		Encapsulation e = new Encapsulation();
-		e.setPhone("hkjk");
-		e.setName(8897869800l);
+		//e.setPhone("hkjk");
+		//e.setName(8897869800l);
 		//23. file operation object
 		File F = new File("path");
 		//23. write in file object
